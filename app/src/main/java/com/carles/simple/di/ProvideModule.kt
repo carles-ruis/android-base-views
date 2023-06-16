@@ -3,12 +3,11 @@ package com.carles.simple.di
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
+import com.carles.simple.common.AppSchedulers
 import com.carles.simple.data.local.HyruleDatabase
 import com.carles.simple.data.local.MonsterDao
 import com.carles.simple.data.remote.HyruleApi
-import com.carles.simple.common.AppSchedulers
 import com.chuckerteam.chucker.api.ChuckerInterceptor
-import com.facebook.stetho.okhttp3.StethoInterceptor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -38,7 +37,6 @@ object ProvideModule {
         val okHttpClient = OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
             .addInterceptor(ChuckerInterceptor.Builder(app.applicationContext).build())
-            .addNetworkInterceptor(StethoInterceptor())
             .build()
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
