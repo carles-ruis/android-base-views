@@ -1,4 +1,4 @@
-package com.carles.simple.common.ui
+package com.carles.simple.ui.common
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -2,8 +2,9 @@ package com.carles.simple.di
 
 import android.content.Context
 import androidx.room.Room
+import com.carles.simple.AppModule
 import com.carles.simple.fakes.FakeHyruleApi
-import com.carles.simple.common.AppSchedulers
+import com.carles.simple.AppSchedulers
 import com.carles.simple.data.local.HyruleDatabase
 import com.carles.simple.data.local.MonsterDao
 import com.carles.simple.data.remote.HyruleApi
@@ -17,7 +18,7 @@ import javax.inject.Singleton
 
 @TestInstallIn(
     components = [SingletonComponent::class],
-    replaces = [ProvideModule::class]
+    replaces = [AppModule::class]
 )
 @Module
 object TestModule {

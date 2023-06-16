@@ -1,7 +1,7 @@
 package com.carles.simple.domain
 
 import com.carles.simple.model.MonsterDetail
-import com.carles.simple.common.AppSchedulers
+import com.carles.simple.AppSchedulers
 import com.carles.simple.data.HyruleRepository
 import io.reactivex.Single
 import javax.inject.Inject

@@ -1,9 +1,8 @@
-package com.carles.simple.di
+package com.carles.simple
 
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
-import com.carles.simple.common.AppSchedulers
 import com.carles.simple.data.local.HyruleDatabase
 import com.carles.simple.data.local.MonsterDao
 import com.carles.simple.data.remote.HyruleApi
@@ -24,7 +23,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object ProvideModule {
+object AppModule {
 
     private const val BASE_URL = "https://botw-compendium.herokuapp.com"
 

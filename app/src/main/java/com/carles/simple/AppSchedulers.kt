@@ -1,4 +1,4 @@
-package com.carles.simple.common
+package com.carles.simple
 
 import io.reactivex.Scheduler
 import javax.inject.Inject

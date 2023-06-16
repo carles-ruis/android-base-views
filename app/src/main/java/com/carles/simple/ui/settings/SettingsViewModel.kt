@@ -2,7 +2,7 @@ package com.carles.simple.ui.settings
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.carles.simple.common.extensions.addTo
+import com.carles.simple.ui.common.addTo
 import com.carles.simple.domain.ResetCacheExpiration
 import dagger.hilt.android.lifecycle.HiltViewModel
 import io.reactivex.disposables.CompositeDisposable

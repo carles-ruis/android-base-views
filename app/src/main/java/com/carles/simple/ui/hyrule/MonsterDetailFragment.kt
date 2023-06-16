@@ -14,10 +14,10 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.carles.simple.R
-import com.carles.simple.common.ui.BaseFragment
-import com.carles.simple.common.ui.ERROR
-import com.carles.simple.common.ui.LOADING
-import com.carles.simple.common.ui.SUCCESS
+import com.carles.simple.ui.common.BaseFragment
+import com.carles.simple.ui.common.ERROR
+import com.carles.simple.ui.common.LOADING
+import com.carles.simple.ui.common.SUCCESS
 import com.carles.simple.databinding.FragmentMonsterDetailBinding
 import com.carles.simple.model.MonsterDetail
 import com.carles.simple.ui.hyrule.ErrorDialogFragment.Companion.EXTRA_RETRY

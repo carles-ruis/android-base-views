@@ -1,7 +1,7 @@
 package com.carles.simple
 
 import androidx.navigation.NavController
-import com.carles.simple.common.extensions.safeNavigate
+import com.carles.simple.ui.common.safeNavigate
 import com.carles.simple.ui.hyrule.MonstersFragmentDirections
 import javax.inject.Inject
 import javax.inject.Singleton

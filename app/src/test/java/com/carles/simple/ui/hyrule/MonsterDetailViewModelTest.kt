@@ -3,8 +3,8 @@ package com.carles.simple.ui.hyrule
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.SavedStateHandle
 import com.carles.simple.Navigation
-import com.carles.simple.common.ui.ERROR
-import com.carles.simple.common.ui.SUCCESS
+import com.carles.simple.ui.common.ERROR
+import com.carles.simple.ui.common.SUCCESS
 import com.carles.simple.domain.GetMonsterDetail
 import com.carles.simple.model.MonsterDetail
 import io.mockk.Runs

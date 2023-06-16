@@ -18,8 +18,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.carles.hyrule.ui.MonstersState
 import com.carles.hyrule.ui.MonstersViewModel
 import com.carles.simple.R
-import com.carles.simple.common.extensions.dp
-import com.carles.simple.common.ui.BaseFragment
+import com.carles.simple.ui.common.dp
+import com.carles.simple.ui.common.BaseFragment
 import com.carles.simple.databinding.FragmentMonstersBinding
 import com.carles.simple.ui.hyrule.ErrorDialogFragment.Companion.REQUEST_CODE_RETRY
 import com.google.android.material.divider.MaterialDividerItemDecoration

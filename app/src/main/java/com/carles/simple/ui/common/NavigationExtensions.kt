@@ -1,4 +1,4 @@
-package com.carles.simple.common.extensions
+package com.carles.simple.ui.common
 
 import android.util.Log
 import androidx.navigation.NavController

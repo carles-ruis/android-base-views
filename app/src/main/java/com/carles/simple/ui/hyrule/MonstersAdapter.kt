@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.carles.simple.common.extensions.setDebounceClickListener
+import com.carles.simple.ui.common.setDebounceClickListener
 import com.carles.simple.databinding.ItemMonsterBinding
 import com.carles.simple.model.Monster
 

@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.carles.simple.Navigation
-import com.carles.simple.common.extensions.addTo
+import com.carles.simple.ui.common.addTo
 import com.carles.simple.model.Monster
 import com.carles.simple.domain.RefreshMonsters
 import dagger.hilt.android.lifecycle.HiltViewModel
