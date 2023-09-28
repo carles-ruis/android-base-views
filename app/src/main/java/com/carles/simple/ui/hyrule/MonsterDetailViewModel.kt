@@ -5,14 +5,14 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import com.carles.simple.Navigation
 import com.carles.simple.R
-import com.carles.simple.ui.common.addTo
+import com.carles.simple.domain.GetMonsterDetail
+import com.carles.simple.model.MonsterDetail
 import com.carles.simple.ui.common.MutableResourceLiveData
 import com.carles.simple.ui.common.ResourceLiveData
+import com.carles.simple.ui.common.addTo
 import com.carles.simple.ui.common.setError
 import com.carles.simple.ui.common.setLoading
 import com.carles.simple.ui.common.setSuccess
-import com.carles.simple.domain.GetMonsterDetail
-import com.carles.simple.model.MonsterDetail
 import com.carles.simple.ui.hyrule.MonsterDetailFragment.Companion.EXTRA_ID
 import dagger.hilt.android.lifecycle.HiltViewModel
 import io.reactivex.disposables.CompositeDisposable
@@ -20,7 +20,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MonsterDetailViewModel @Inject constructor(
-    private val savedStateHandle: SavedStateHandle,
+    savedStateHandle: SavedStateHandle,
     private val getMonsterDetail: GetMonsterDetail,
     private val navigation: Navigation
 ) : ViewModel() {

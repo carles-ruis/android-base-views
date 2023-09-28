@@ -36,9 +36,4 @@
         <item>999999999</item>
     </string-array>
     <string name="preferences_cache_default_value" translatable="false">1</string>
-
-    <!-- vector drawables -->
-    <string name="ic_add_vector_path" translatable="false">M50 20,L50 80,M20 50,L80 50</string>
-    <string name="ic_check_vector_path" translatable="false">M60 25,L75 45,M25 75,L60 25</string>
-
 </resources>

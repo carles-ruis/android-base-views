@@ -1,7 +1,7 @@
 package com.carles.simple.data
 
-import com.carles.simple.data.cache.ItemNotCachedException
 import com.carles.simple.data.local.HyruleLocalDatasource
+import com.carles.simple.data.local.ItemNotCachedException
 import com.carles.simple.data.local.MonsterDetailEntity
 import com.carles.simple.data.local.MonsterEntity
 import com.carles.simple.data.remote.HyruleRemoteDatasource

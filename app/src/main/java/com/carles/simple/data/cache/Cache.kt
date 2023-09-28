@@ -34,5 +34,3 @@ class Cache @Inject constructor(private val preferences: AppPreferences) {
 
     private fun now() = Calendar.getInstance().timeInMillis
 }
-
-object ItemNotCachedException : RuntimeException()

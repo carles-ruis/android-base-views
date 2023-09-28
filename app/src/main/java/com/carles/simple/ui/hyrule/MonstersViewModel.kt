@@ -1,4 +1,4 @@
-package com.carles.hyrule.ui
+package com.carles.simple.ui.hyrule
 
 import android.util.Log
 import androidx.lifecycle.LiveData

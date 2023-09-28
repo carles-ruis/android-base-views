@@ -2,7 +2,6 @@ package com.carles.simple.di
 
 import android.content.Context
 import androidx.room.Room
-import com.carles.simple.AppModule
 import com.carles.simple.fakes.FakeHyruleApi
 import com.carles.simple.AppSchedulers
 import com.carles.simple.data.local.HyruleDatabase

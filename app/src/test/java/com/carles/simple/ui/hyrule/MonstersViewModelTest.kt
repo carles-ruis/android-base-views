@@ -1,8 +1,6 @@
 package com.carles.simple.ui.hyrule
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.carles.hyrule.ui.MonstersState
-import com.carles.hyrule.ui.MonstersViewModel
 import com.carles.simple.Navigation
 import com.carles.simple.domain.RefreshMonsters
 import com.carles.simple.model.Monster

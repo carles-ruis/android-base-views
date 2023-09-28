@@ -1,8 +1,9 @@
-package com.carles.simple
+package com.carles.simple.di
 
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
+import com.carles.simple.AppSchedulers
 import com.carles.simple.data.local.HyruleDatabase
 import com.carles.simple.data.local.MonsterDao
 import com.carles.simple.data.remote.HyruleApi

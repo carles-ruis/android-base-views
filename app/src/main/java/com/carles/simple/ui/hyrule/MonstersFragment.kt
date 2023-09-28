@@ -15,8 +15,6 @@ import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.onNavDestinationSelected
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.carles.hyrule.ui.MonstersState
-import com.carles.hyrule.ui.MonstersViewModel
 import com.carles.simple.R
 import com.carles.simple.ui.common.dp
 import com.carles.simple.ui.common.BaseFragment
